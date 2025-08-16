@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    container_name: snapcal_db
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=snapcal_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+
+  backend:
+    build: ./services/backend
+    container_name: snapcal_backend
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      - DATABASE_URL=postgresql://user:password@db:5432/snapcal_db
+      - ML_SERVICE_URL=http://ml_service:8001
+
+  ml_service:
+    build: ./services/ml_service
+    container_name: snapcal_ml_service
+    ports:
+      - "8001:8001"
+
+volumes:
+  postgres_data:
