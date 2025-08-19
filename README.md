@@ -17,28 +17,11 @@ SnapCal is an AI-powered mobile application that estimates calories and nutritio
 
 ## 🛠️ Tech Stack
 
-### Backend
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,sqlalchemy,docker&theme=dark" />
-  </a>
-</p>
-
-### Machine Learning
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=pytorch,opencv&theme=dark" />
-  </a>
-  <img src="https://mlflow.org/docs/latest/images/logo-dark.svg" alt="MLflow Logo" width="100"/>
-</p>
-*Note: We use YOLOv8 for object detection.*
-
-### DevOps
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=githubactions,vscode&theme=dark" />
-  </a>
-</p>
+| Category | Technology |
+|----------|------------|
+| Backend | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?logo=sqlalchemy&logoColor=white) |
+| ML/AI | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white) ![MLflow](https://img.shields.io/badge/MLflow-0A658E?logo=mlflow&logoColor=white) ![YOLOv8](https://img.shields.io/badge/YOLOv8-00FFFF?logo=yolo&logoColor=white) |
+| DevOps | ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?logo=visualstudiocode&logoColor=white) |
 
 ## 📂 Project Structure
 <pre>
