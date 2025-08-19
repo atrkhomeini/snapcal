@@ -1,0 +1,21 @@
+{
+  "name": "SnapCal Dev Container",
+  "dockerComposeFile": "../docker-compose.yml",
+
+  // IMPORTANT: We now connect to our new 'dev' service
+  "service": "dev",
+
+  // IMPORTANT: The workspace is now the full project folder
+  "workspaceFolder": "/workspaces/snapcal",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylint",
+        "ms-azuretools.vscode-docker"
+      ]
+    }
+  },
+  "forwardPorts": [8000, 8001, 5432]
+}
