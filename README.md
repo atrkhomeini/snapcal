@@ -6,8 +6,8 @@
 
 SnapCal is an AI-powered mobile application that estimates calories and nutrition from a single photograph of a meal, with a primary focus on diverse Indonesian cuisine.
 
-[![CI](https://github.com/[YOUR_USERNAME]/[YOUR_REPOSITORY]/actions/workflows/ci.yml/badge.svg)](https://github.com/[YOUR_USERNAME]/[YOUR_REPOSITORY]/actions/workflows/ci.yml)
-[![CD](https://github.com/[YOUR_USERNAME]/[YOUR_REPOSITORY]/actions/workflows/cd.yml/badge.svg)](https://github.com/[YOUR_USERNAME]/[YOUR_REPOSITORY]/actions/workflows/cd.yml)
+[![CI](https://github.com/atrkhomeini/snapcal/actions/workflows/ci.yml/badge.svg)](https://github.com/atrkhomeini/snapcal/actions/workflows/ci.yml)
+[![CD](https://github.com/atrkhomeini/snapcal/actions/workflows/cd.yml/badge.svg)](https://github.com/atrkhomeini/snapcal/actions/workflows/cd.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## ✨ Features (MVP)
