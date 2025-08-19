@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/CVarisco/create-beautiful-readme/main/img/snapcal_logo.png" alt="SnapCal Logo" width="200"/>
+  <img src="https://github.com/atrkhomeini/snapcal/blob/feature/create-beautiful-readme/logo.png" alt="SnapCal Logo" width="200"/>
 </div>
 
 # 🚀 SnapCal Project
