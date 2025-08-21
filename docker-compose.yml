@@ -3,8 +3,8 @@ services:
     image: postgres:15
     container_name: snapcal_db
     environment:
-      - POSTGRES_USER=user
-      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=snapcal
+      - POSTGRES_PASSWORD=admin
       - POSTGRES_DB=snapcal_db
     ports:
       - "5432:5432"
