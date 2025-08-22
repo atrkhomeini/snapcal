@@ -1,13 +1,17 @@
 <div align="center">
-  <img src="https://github.com/atrkhomeini/snapcal/blob/feature/create-beautiful-readme/logo.png" alt="SnapCal Logo" width="200"/>
+  <img src="https://raw.githubusercontent.com/CVarisco/create-beautiful-readme/main/img/snapcal_logo.png" alt="SnapCal Logo" width="200"/>
+  <br/>
+  <a href="https://repobeats.axiom.co/api/embed/7026e6a84a48a15ebf1986454b6450e36a77e570">
+    <img src="https://repobeats.axiom.co/api/embed/7026e6a84a48a15ebf1986454b6450e36a77e570" alt="Repobeats analytics image" />
+  </a>
 </div>
 
 # 🚀 SnapCal Project
 
 SnapCal is an AI-powered mobile application that estimates calories and nutrition from a single photograph of a meal, with a primary focus on diverse Indonesian cuisine.
 
-[![CI](https://github.com/atrkhomeini/snapcal/actions/workflows/ci.yml/badge.svg)](https://github.com/atrkhomeini/snapcal/actions/workflows/ci.yml)
-[![CD](https://github.com/atrkhomeini/snapcal/actions/workflows/cd.yml/badge.svg)](https://github.com/atrkhomeini/snapcal/actions/workflows/cd.yml)
+[![CI](https://github.com/[YOUR_USERNAME]/[YOUR_REPOSITORY]/actions/workflows/ci.yml/badge.svg)](https://github.com/[YOUR_USERNAME]/[YOUR_REPOSITORY]/actions/workflows/ci.yml)
+[![CD](https://github.com/[YOUR_USERNAME]/[YOUR_REPOSITORY]/actions/workflows/cd.yml/badge.svg)](https://github.com/[YOUR_USERNAME]/[YOUR_REPOSITORY]/actions/workflows/cd.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## ✨ Features (MVP)
