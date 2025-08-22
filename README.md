@@ -1,8 +1,8 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/CVarisco/create-beautiful-readme/main/img/snapcal_logo.png" alt="SnapCal Logo" width="200"/>
   <br/>
-  <a href="https://repobeats.axiom.co/api/embed/7026e6a84a48a15ebf1986454b6450e36a77e570">
-    <img src="https://repobeats.axiom.co/api/embed/7026e6a84a48a15ebf1986454b6450e36a77e570" alt="Repobeats analytics image" />
+  <a href="https://repobeats.axiom.co/api/embed/7026e6a84a48a15ebf1986454b6450e36a77e570.svg">
+    <img src="https://repobeats.axiom.co/api/embed/7026e6a84a48a15ebf1986454b6450e36a77e570.svg" alt="Repobeats analytics image" />
   </a>
 </div>
 
