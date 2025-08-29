@@ -1,11 +1,3 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/CVarisco/create-beautiful-readme/main/img/snapcal_logo.png" alt="SnapCal Logo" width="200"/>
-  <br/>
-  <a href="https://repobeats.axiom.co/api/embed/7026e6a84a48a15ebf1986454b6450e36a77e570.svg">
-    <img src="https://repobeats.axiom.co/api/embed/7026e6a84a48a15ebf1986454b6450e36a77e570.svg" alt="Repobeats analytics image" />
-  </a>
-</div>
-
 # 🚀 SnapCal Project
 
 SnapCal is an AI-powered mobile application that estimates calories and nutrition from a single photograph of a meal, with a primary focus on diverse Indonesian cuisine.
@@ -60,6 +52,8 @@ This project is configured to run in a standardized development environment usin
 3.  A pop-up will appear: "Reopen in Container?". Click it.
 4.  VS Code will build the Docker containers and launch your development environment.
 5.  Once loaded, open a new terminal in VS Code and run `docker-compose up --build` to start all services.
+
+![Alt](https://repobeats.axiom.co/api/embed/7026e6a84a48a15ebf1986454b6450e36a77e570.svg "Repobeats analytics image")
 
 ## 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
