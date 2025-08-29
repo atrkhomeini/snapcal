@@ -1,20 +1,21 @@
-# Use the official PyTorch image with CUDA 12.1 support
-FROM pytorch/pytorch:2.3.0-cuda12.1-cudnn8-runtime
+# Step 1: Start from an official NVIDIA CUDA base image for GPU compatibility.
+FROM nvidia/cuda:12.1.1-cudnn8-runtime-ubuntu22.04
 
-# [Optional] Add any OS-level packages you might need.
-# For example, to install Git.
-RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y install --no-install-recommends git
+# Step 2: Install essential system packages and a clean Python environment.
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    python3.10 \
+    python3-pip \
+    git \
+    libgl1-mesa-glx \
+    libglib2.0-0 && \
+    rm -rf /var/lib/apt/lists/*
 
-# [Optional] You can install a global version of pylint or other tools here
-# RUN pip install pylint
-# --- ADD THESE LINES AT THE END ---
-
-# Copy the ML service's requirements file into the container
+# Step 3: Copy our project's ML requirements file.
 COPY ../services/ml_service/requirements.txt /tmp/ml-requirements.txt
 
-# Install the ML dependencies into our development environment
-RUN pip install --no-cache-dir -r /tmp/ml-requirements.txt
+# Step 4: Install our Python packages into the single, global environment.
+RUN python3 -m pip install --no-cache-dir -r /tmp/ml-requirements.txt
 
-# [Done] The rest of your project's dependencies (FastAPI, PyTorch, etc.)
-# will be installed by the docker-compose.yml file.
+# Step 5: Tell VS Code where to find this Python installation.
+ENV PYTHON_DEFAULT_EXECUTABLE=/usr/bin/python3

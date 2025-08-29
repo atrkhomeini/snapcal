@@ -1,18 +1,20 @@
-# Use the official PyTorch image with CUDA 12.1 support
-FROM pytorch/pytorch:2.3.0-cuda12.1-cudnn8-runtime
+# Use the same clean base image as our dev container for consistency
+FROM nvidia/cuda:12.1.1-cudnn8-runtime-ubuntu22.04
 
-# Set the working directory inside the container
+# Install Python and pip
+RUN apt-get update && \
+    apt-get install -y python3.10 python3-pip && \
+    rm -rf /var/lib/apt/lists/*
+
+# Set the working directory
 WORKDIR /app
 
-# Copy the requirements file first for layer caching
+# Copy and install requirements
 COPY requirements.txt .
+RUN python3 -m pip install --no-cache-dir -r requirements.txt
 
-# Install the Python dependencies
-RUN pip install --no-cache-dir --upgrade pip && \
-    pip install --no-cache-dir -r requirements.txt
-
-# Copy the rest of the application source code
+# Copy app code
 COPY ./app /app/
 
-# Command to run the application
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8001"]
+# Command to run the application with auto-reload
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8001", "--reload"]
