@@ -60,3 +60,10 @@ data/
 .idea/
 .vscode/
 .DS_Store
+
+notebooks/mlruns/
+notebooks/runs/
+notebooks/training_runs/
+notebooks/*.pt
+mlruns/
+training_runs/
