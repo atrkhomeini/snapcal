@@ -1,0 +1,32 @@
+images_per_dish: 150
+save_directory: '../data/raw/v3/'
+target_queries:
+
+  nasi_padang:
+    - "nasi padang rendang asli"
+    - "nasi padang lauk lengkap"
+    - "nasi padang bungkus kertas"
+    - "nasi padang in restaurant"
+  
+  bakso:
+    - "mangkok bakso sapi asli"
+    - "bakso malang komplit"
+    - "bakso gerobak pinggir jalan"
+  
+  soto_ayam:
+    - "soto ayam lamongan bening"
+    - "soto ayam kuah kuning"
+    - "mangkok soto ayam dari atas"
+    - "soto ayam komplit"
+
+  siomay_bandung:
+  - "siomay bandung asli bumbu kacang"
+  - "piring siomay bandung komplit"
+  - "siomay ikan tenggiri"
+  - "siomay gerobak bandung"
+
+  mie_ayam:
+    - "mie ayam bakso pangsit"
+    - "mie ayam jamur"
+    - "mie ayam pedas"
+    - "mie ayam komplit"
